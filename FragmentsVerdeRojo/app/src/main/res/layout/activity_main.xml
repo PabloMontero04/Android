@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Verde"
+        android:layout_width="201dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="#66FF66"
+        android:text="Verde"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/Rojo"
+        android:layout_width="201dp"
+        android:layout_height="48dp"
+        android:background="#FF0000"
+        android:text="Rojo"
+        app:cornerRadius="0dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="646dp"
+        app:layout_constraintEnd_toEndOf="Rojo"
+        tools:layout_editor_absoluteY="83dp"
+        tools:ignore="MissingConstraints">
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

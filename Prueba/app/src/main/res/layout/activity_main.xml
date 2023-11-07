@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Verde"
+        android:layout_width="194dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="Verde"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Rojo"
+        android:layout_width="191dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="8dp"
+        android:text="Rojo"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/contenedorFragments"
+        android:layout_width="409dp"
+        android:layout_height="667dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="63dp"
+        tools:ignore="MissingConstraints">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

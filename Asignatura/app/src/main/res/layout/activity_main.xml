@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Asignaturas"
+        android:layout_width="409dp"
+        android:layout_height="123dp"
+        android:background="#03A9F4"
+        android:gravity="center_vertical|center_horizontal"
+        android:minHeight="48dp"
+        android:text="Asignaturas"
+        android:textSize="100px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Lengua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Lengua"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Asignaturas" />
+
+    <EditText
+        android:id="@+id/Matematicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="Matematicas"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Lengua" />
+
+    <EditText
+        android:id="@+id/Ingles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:hint="Ingles"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Matematicas" />
+
+    <Button
+        android:id="@+id/Enviar"
+        android:layout_width="109dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="104dp"
+        android:text="Enviar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Ingles" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
